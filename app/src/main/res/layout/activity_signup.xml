@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/backicon"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="Back icon"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Sign up"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/backicon" />
+
+    <EditText
+        android:id="@+id/suname"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="170dp"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:background="@drawable/background_input"
+        android:paddingStart="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <EditText
+        android:id="@+id/suemail"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="25dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/background_input"
+        android:paddingStart="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/suname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <EditText
+        android:id="@+id/supassword"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="25dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/background_input"
+        android:paddingStart="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/suemail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <EditText
+        android:id="@+id/suconfirmpass"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="25dp"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        android:background="@drawable/background_input"
+        android:paddingStart="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/supassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="224dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:padding="8dp"
+        android:text="I have read and accepted the "
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/suconfirmpass" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signupbtn"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/background_sign"
+        android:gravity="center"
+        android:text="Sign up"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkBox" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="41dp"
+        android:text="Already have an account?"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signupbtn" />
+
+    <TextView
+        android:id="@+id/signinbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        android:text="Sign in"
+        android:textColor="#AEC2D0"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/signupbtn" />
+
+    <TextView
+        android:id="@+id/policy"
+        android:layout_width="172dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Service Privacy Policy"
+        android:textColor="#007DDF"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/suconfirmpass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

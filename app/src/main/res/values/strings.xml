@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">EventApp</string>
+
+    <string name="privacy_policy"><![CDATA[
+<b>1. Information Collection</b><br/>
+We collect personal information you provide directly, such as your name, email address, phone number, payment information, and event preferences. We may also collect usage data automatically such as device information, IP address, and app activity logs to improve our services.<br/><br/>
+
+<b>2. How We Use Your Information</b><br/>
+Your data is used to:<br/>
+- Process and confirm your ticket bookings.<br/>
+- Communicate important updates, reminders, and support.<br/>
+- Personalize your experience with tailored event recommendations.<br/>
+- Analyze app usage to improve functionality and security.<br/>
+- Detect and prevent fraudulent or unauthorized activities.<br/>
+- Comply with legal and regulatory requirements.<br/><br/>
+
+<b>3. Information Sharing and Disclosure</b><br/>
+We do not sell or rent your personal information to third parties. We may share your data with:<br/>
+- Payment processors for transaction handling.<br/>
+- Event organizers to deliver your ticket information.<br/>
+- Service providers assisting with customer support and technical infrastructure.<br/>
+- Legal authorities if required by law or to protect our rights.<br/><br/>
+
+<b>4. Data Security and Protection</b><br/>
+We implement robust security measures including encryption, access controls, and regular security audits to protect your data. However, no method of transmission over the Internet or electronic storage is 100% secure.<br/><br/>
+
+<b>5. Data Retention</b><br/>
+We retain your personal data for as long as necessary to provide our services, comply with legal obligations, resolve disputes, and enforce agreements. When data is no longer needed, we securely delete or anonymize it.<br/><br/>
+
+<b>6. Your Privacy Rights</b><br/>
+Depending on your location, you may have rights under data protection laws such as:<br/>
+- Right to access, correct, or delete your personal data.<br/>
+- Right to restrict or object to processing.<br/>
+- Right to data portability.<br/>
+- Right to withdraw consent where applicable.<br/>
+- Right to lodge a complaint with a supervisory authority.<br/>
+To exercise these rights, please contact our data protection officer at support@eventapp.com.<br/><br/>
+
+<b>7. Cookies and Tracking</b><br/>
+We use cookies and similar technologies to enhance your experience, analyze trends, and provide targeted advertising. You can manage cookie preferences via your device settings.<br/><br/>
+
+<b>8. Children’s Privacy</b><br/>
+Our services are not directed to individuals under 13 years old. We do not knowingly collect information from children under 13. If we learn that we have collected such data, we will take steps to delete it.<br/><br/>
+
+<b>9. International Data Transfers</b><br/>
+If you are located outside the country where our servers operate, your information may be transferred internationally. We ensure appropriate safeguards are in place for such transfers.<br/><br/>
+
+<b>10. Third-Party Links and Services</b><br/>
+Our app may contain links to third-party websites or services. We are not responsible for the privacy practices or content of those external sites.<br/><br/>
+
+<b>11. Changes to this Privacy Policy</b><br/>
+We reserve the right to update this privacy policy. Material changes will be communicated via the app or email before they take effect. Continued use of the app constitutes acceptance of the updated policy.<br/><br/>
+
+<b>12. Contact Us</b><br/>
+For any questions, concerns, or requests regarding your personal data or this policy, please contact:<br/>
+Event Booking Ticket App Support<br/>
+Email: support@eventapp.com<br/>
+Address: [Your Company Address]<br/><br/>
+
+Thank you for trusting Event Booking Ticket App for your event experiences. Your privacy is important to us.
+]]></string>
+
+
+</resources>
