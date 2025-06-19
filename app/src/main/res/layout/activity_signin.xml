@@ -35,11 +35,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imagelogo" />
 
-    <!-- Password Field -->
 
-    <!-- Sign In Button -->
-
-    <!-- Sign Up Prompt -->
 
     <EditText
         android:id="@+id/siemail"
@@ -49,7 +45,7 @@
         android:layout_marginTop="396dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/background_input"
-        android:hint="Full Name"
+        android:hint="Email"
         android:inputType="text"
         android:paddingStart="20dp"
         android:textColor="@color/black"
@@ -59,30 +55,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/siPassword"
-        android:layout_width="0dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="32dp"
-        android:background="@drawable/background_input"
-        android:hint="Full Name"
-        android:inputType="text"
-        android:paddingStart="20dp"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/siemail" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/signinbtn"
         android:layout_width="0dp"
         android:layout_height="57dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/background_sign"
         android:gravity="center"
@@ -93,8 +72,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/siPassword" />
-
+        app:layout_constraintTop_toBottomOf="@+id/SiPassword" />
 
     <TextView
         android:id="@+id/textView7"
@@ -120,5 +98,21 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signinbtn" />
+
+    <EditText
+        android:id="@+id/SiPassword"
+        android:layout_width="384dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/background_input"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siemail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

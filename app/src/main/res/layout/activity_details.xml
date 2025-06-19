@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DetailsActivity">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+        android:contentDescription="Back button"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="80dp"
+        android:padding="24dp"
+        android:background="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/welcomeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:text="🎉 Welcome to Event Booking Ticket App"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/welcomeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:lineSpacingExtra="6dp"
+                android:text="Your smart and simple way to discover, book, and enjoy events near you — anytime, anywhere!\n\nFrom live music festivals and workshops to cultural shows, sports matches, and tech expos — this app brings all events into one place, right at your fingertips.\n\n📲 Experience Events Like Never Before\n\nNo more long queues, confusing websites, or missed opportunities. With our app, everything is just a tap away:\n\n🔍 Discover Events That Matter\n- Explore local and regional events updated in real-time\n- Events sorted by Date, Location, or Category (Music, Sports, Business, etc.)\n- Event info includes title, description, date/time, price, location, and image\n\n🎫 Book Instantly, Book Smart\n- Tap 'Book Now' to reserve your ticket\n- Tickets saved digitally in your profile\n- Bookings linked to your account via Firebase\n\n👤 Your Profile, Your Events\n- View name, email, profile photo\n- See all booked events\n- Tap events to show tickets\n- Edit profile easily\n\n🔐 Safe  Secure\n- Login with Email or Google via Firebase\n- Bookings and profile data stored securely\n\n🧠 Clean  Simple Design\n- Fast, modern Android UI\n- Easy navigation for all users\n\n🆕 Coming Soon\n- QR code tickets\n- Notifications for new events\n- Save to favorites\n- Multi-language support\n- Group bookings\n\n🚀 Why You’ll Love It\n- One-tap booking\n- Real-time updates\n- Secure cloud storage\n- Easy access to all bookings\n- Beautiful, user-friendly design\n\nLet’s go!\nSign in and start booking your favorite events now. Enjoy, explore, and experience more — with Event Booking Ticket App!"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="Event Details"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
